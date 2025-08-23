@@ -25,3 +25,58 @@ let stringNumber = String(someNumber); //converted 43 into string using String
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
+
+
+
+// DAY-2 =>
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue);
+
+
+// very  basic operations=>
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/3);
+// console.log(2**2);
+// console.log(2%3);
+
+// little tricky=>
+// let str1 = ("Hiiii")
+// let str2 = (" Shivam") //space after quote so that out have space between hii and shivam
+// let str = str1 + str2 //adds both strings only addition no subtraction
+
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2"); //dont write codes like this
+
+// console.log((3+4) * 5 % 3); //write code like this use parentheses
+
+// console.log(+true); //not good way to write makes code more complex
+// console.log(+""); //not good way
+
+
+// let num1, num2, num3
+
+// num1 = num2 = num3 = 2+2
+
+// let gameCounter  = 100
+// gameCounter++; //postfix operator
+// console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
+
+
