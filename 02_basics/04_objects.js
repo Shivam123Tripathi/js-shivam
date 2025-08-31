@@ -41,13 +41,51 @@ console.log(regularUser.fullname.userfullname.firstname) //? is used if there is
     users[1].email
     console.log(tinderUser);
     
-console.log(Object.keys(tinderUser)); //very important
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser)); //very important
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnPropery('fisLoggedIn') );
+// console.log(tinderUser.hasOwnPropery('fisLoggedIn') );
+
+//destructring of arry and object both happened in both
+
+const course = {
+    coursename: "js ",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+console.log(courseInstructor);
+//now we shorten the name courseInstructor to instructor
+
+// const navbar = (props.company) => {
+
+// }
+
+// navbar (company = "shivam") 
+    //above is destructuring of objects
 
 
+    //api => apna kaam kisi or ke sir p example: waiter at restaurant
 
+    //json is also object only written in curly braces just like curly brackets
+    // value must be in strings as shown below
+
+    // {
+    //     "name": "shivam",
+    //     "coursename": "js",
+    //     "price": "free"
+    // }
+
+    //sometimes apis also is in array format as show below
+
+    [
+        {},
+        {},
+        {}
+    ]
 
     
