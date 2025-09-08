@@ -1,4 +1,4 @@
-function sayMyName (){ //syntax of function
+//function sayMyName (){ //syntax of function
     console.log("s");
     console.log("h");
     console.log("i");
@@ -9,14 +9,14 @@ function sayMyName (){ //syntax of function
 
 //sayMyName ()
 
-function addTwoNumbers(number1,number2){ //these are parameters 
-   console.log( number1 + number2);
+//function addTwoNumbers(number1,number2){ //these are parameters 
+   //console.log( number1 + number2);
    
 }
 //addTwoNumbers(3, "null") //these are arguments
 
 
-function addTwoNumbers(number1,number2){
+//function addTwoNumbers(number1,number2){
 
     //let result = number1 + number2
     //return result
@@ -29,7 +29,7 @@ const result = addTwoNumbers(3,5)
 
 //console.log("Result: ", result); //result: undefined
 
-function loginUserMessage(username = "sam"){
+//function loginUserMessage(username = "sam"){
     if(!username){
         console.log("please enter a username");
         return
@@ -43,3 +43,13 @@ function loginUserMessage(username = "sam"){
 
 
 //return likhne se output print ni hota return ke baad console.log karna padta h for output
+
+
+function calculateCartPrice(num1){
+    returnnum1
+
+}
+
+calculateCartPrice(2)
+
+console.log(calculateCartPrice(2))
