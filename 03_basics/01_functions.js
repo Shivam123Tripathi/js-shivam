@@ -45,11 +45,36 @@ const result = addTwoNumbers(3,5)
 //return likhne se output print ni hota return ke baad console.log karna padta h for output
 
 
-function calculateCartPrice(num1){
+function calculateCartPrice(...num1){
     returnnum1
-
 }
-
 calculateCartPrice(2)
 
-console.log(calculateCartPrice(2))
+//console.log(calculateCartPrice(200, 400, 500))
+//rest operator is ...  and also known as spread op.bikhra hua item it says package in bundle and give 
+
+ const user = {
+    username = "shivam",
+    price: 199
+
+ }
+ function handleObject(anyObject){
+    console.log(`username is ${} and price is ${}`);
+ }
+
+ //handleObject(user)
+ handleObject({
+    username:"sam",
+    price: 199
+ })
+
+ const myNewArray = [200, 300 ,4000 ,100]
+
+ function  returnSecondValue(getArray){
+    return getArray[1]
+ }
+
+ // console.log(returnSecondValue(myNewArray));
+ console.log(returnSecondValue([200, 300, 4000, 100]))
+
+ 
