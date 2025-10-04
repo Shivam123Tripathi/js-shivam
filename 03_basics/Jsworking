@@ -1,0 +1,75 @@
+/*here we will be learning how does js execute code + call stack
+
+1.Global Execution context
+2.function execution context
+3.Eval execution context its a property
+
+//working of Javascript
+
+{} iske andr js ka code h samjho
+1.memory creation phase ->
+2.execution phase
+3.let val1 = 10
+let val2 = 5
+function addNum(num1, num2){
+let total = num1 + num2
+return total
+}
+let result1 = addNum(val1, val2)
+let result2  = addNum(10, 2)
+
+2.Memory/Creation phase ->
+val1 -> undefined
+val2 -> undefined
+addNum -> definition
+result1 ->undefines
+result2 -> undefined
+
+first cycle completes here
+
+3.Execution Phase ->
+val1 = 10
+val2 = 5
+addNum = **one more executional context comes here new variable + execution thread**
+because of this again these phase will happen memory phase and execution phase
+
+memory phase ->
+val1 = undefined
+val2 = undefined
+total = undefined
+
+
+execution context ->
+num1 = 10
+num2 = 5
+total = 15 // it is returned to global executional context
+
+delete also happens
+
+result1 = 15
+result2 = 
+
+nve + thread
+again memory phase  then -> execution phase
+
+
+----------------------*------------*--------------------
+//CALL STACKS
+
+one()
+two()
+three()
+LIFO
+
+ 
+
+
+
+
+
+
+
+
+
+
+*/
